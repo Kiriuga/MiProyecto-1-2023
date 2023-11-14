@@ -3,8 +3,9 @@
    margin: 0;
 }
 #CabeceraContenido{
+    background-color: #67999A;
     width: 100%;
-    height: 100px;
+    display: flex;
     border:1px solid black ;
 }
 #CuerpoContenido{
@@ -16,4 +17,26 @@ footer{
     width: 100%;
     height: 200px;
     border:1px solid black ;
+}
+#cabeceraImagenNombre{
+    flex: 30%;
+}
+#CabeceraMenu{
+    flex: 70%;
+    
+}
+#ImagenNombreRedondo{
+    width: 150px;   
+    height: 150px;
+    background-color: white;
+    border-radius: 75px;
+}
+#nombreRectangulo{
+    background-color: #013334;
+    width: 30%;
+    padding: 20px;
+    color: white;
+    font-size: 25pxs;
+    text-transform: uppercase;
+    font-weight: bold;
 }
